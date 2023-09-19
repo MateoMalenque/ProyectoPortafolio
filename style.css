@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(44, 44, 221);
+}
+h1{
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.navbar{
+    background-color: rgb(75, 181, 230);
+}
+
+
+.active2{
+    background-color: rgb(71, 135, 231);
+    border:none;
+}
+
+li a:hover:not(.active2){
+    background-color: rgb(71, 135, 231);
+}
+
+
+.carousel{
+    margin: 5% 5%;
+    justify-content: center;
+    display: flex;
+}
+
+p{
+    color: white;
+}
+.img2{
+    margin: 30px 100% 50px 00px;
+    flex-wrap: wrap;
+    width: 100%;
+    top: 50%;
+}
+
+
+.boton{
+    padding: 10px 20px;
+    background-color: #1e55a8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.boton:hover{
+    background-color: rgb(18, 113, 255);
+    box-shadow: 5px 5px 20px rgb(0,0,0,0.50);
+    transform: translateY(-3%);
+}
+
+.carousel-inner{
+    opacity: 0.7;
+}
+img:hover{
+    transition: opacity 2s ease-in-out 0.3s;
+
+}
+
+footer{
+    display: block;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+/*.container:hover{
+    box-shadow: 5px 5px 20px rgb(0,0,0,0.50);
+    transform: translateY(-3%);
+}*/
+
+.card{
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgb(0,0,0,0.50);
+    transform: translateY(-3%);
+}
+.card-text{
+    color: black;
+}
+.card-img-top{
+    display: flex;
+    width: 100%;
+}
